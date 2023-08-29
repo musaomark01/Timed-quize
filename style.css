@@ -1,0 +1,26 @@
+* {
+    font-family: sans-serif;
+}
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: larger;
+    margin-bottom: 50px;
+}
+header button {
+    text-decoration: none;
+    background-color: lightblue;
+    border-radius: 10px ;
+    box-shadow: 2px 2px 2px 2px;
+}
+main {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+@media screen and  (max-width: 524px){
+    body {
+        font-size: larger;
+    }
+    
+}
