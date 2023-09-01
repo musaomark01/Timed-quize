@@ -27,6 +27,16 @@ main {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
 }
+button {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: blue;
+    margin-top:10px; 
+    margin-bottom:10px;
+    padding:20px; 
+    width: 8%;
+}
 /* made it so if the screen size is <524 the text on the body element gets larger */
 @media screen and  (max-width: 524px){
     body {
