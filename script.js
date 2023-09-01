@@ -215,5 +215,6 @@ function Timer() {
   }, 1000);
 }
 }
+
 startBtn.addEventListener('click', Timer)
 
