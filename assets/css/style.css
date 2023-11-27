@@ -40,7 +40,5 @@ button {
 @media screen and  (min-width: 524px){
     body {
         font-size: larger;
-    }
-
-    
+    } 
 }
