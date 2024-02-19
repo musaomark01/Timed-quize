@@ -1,8 +1,9 @@
+// Get the elements from the html file
 var timeEl = document.getElementById("time");
 var containerEl = document.getElementById("container");
 var scoreContainerEl = document.getElementById("scorecontainer");
 var messageEl = document.getElementById("message");
-
+// set the timer to 60 seconds
 var secondsLeft = 60;
 var timerInterval;
 var score = 0;
@@ -31,7 +32,7 @@ function wrongAnswer() {
 };
 // start screen that will display the title, instructions, and start button
 function startScreen() {
-    containerEl.innerHTML = `<h1> Coding Quiz Challenge </h1>
+    containerEl.innerHTML = `
     <h3> Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will decrease time by ten seconds! </h3>
     <button id="startButton"> Start Quiz </button>`;
     var startButton = document.getElementById("startButton");
@@ -49,7 +50,7 @@ function questionOne() {
     <button id="answer1"> 1. Function </button>
     <button id="answer2"> 2. Object </button>
     <button id="answer3"> 3. Api </button>
-    <button id="answer4"> 4. 'Variable </button>`;
+    <button id="answer4"> 4. Variable </button>`;
     var answer1 = document.getElementById("answer1");
     var answer2 = document.getElementById("answer2");
     var answer3 = document.getElementById("answer3");
@@ -77,7 +78,7 @@ function questionTwo() {
     <button id="answer1"> 1. Function </button>
     <button id="answer2"> 2. Object </button>
     <button id="answer3"> 3. Api </button>
-    <button id="answer4"> 4. 'Variable </button>`;
+    <button id="answer4"> 4. Variable </button>`;
     var answer1 = document.getElementById("answer1");
     var answer2 = document.getElementById("answer2");
     var answer3 = document.getElementById("answer3");
@@ -133,7 +134,7 @@ function questionFour() {
     <button id="answer1"> 1. Function </button>
     <button id="answer2"> 2. Object </button>
     <button id="answer3"> 3. Api </button>
-    <button id="answer4"> 4. 'Variable </button>`;
+    <button id="answer4"> 4. Variable </button>`;
     var answer1 = document.getElementById("answer1");
     var answer2 = document.getElementById("answer2");
     var answer3 = document.getElementById("answer3");
